@@ -1,0 +1,169 @@
+:root {
+  --light-blue: #00dacf;
+  --white-color: #f2ebeb;
+  --black-color: #050114;
+  --gray-color: #66717e;
+  --dark-blue: #1d0b5e;
+}
+
+/* Body font */
+
+.koh-santepheap-thin {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.koh-santepheap-light {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.koh-santepheap-regular {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.koh-santepheap-bold {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.koh-santepheap-black {
+  font-family: "Koh Santepheap", serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+/* Blurb font */
+
+.commissioner {
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 100;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "FLAR" 0, "VOLM" 0;
+}
+
+.commissioner-regular {
+  font-family: "Commissioner", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+  font-variation-settings: "slnt" 0, "FLAR" 0, "VOLM" 0;
+}
+
+/* Header font */
+
+.space-mono-regular {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.space-mono-bold {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.space-mono-regular-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.space-mono-bold-italic {
+  font-family: "Space Mono", monospace;
+  font-weight: 700;
+  font-style: italic;
+}
+
+/* Logo font */
+
+.ibm-plex-sans-condensed-thin {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-extralight {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-light {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-regular {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-medium {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-semibold {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-bold {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.ibm-plex-sans-condensed-thin-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.ibm-plex-sans-condensed-extralight-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.ibm-plex-sans-condensed-light-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.ibm-plex-sans-condensed-regular-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.ibm-plex-sans-condensed-medium-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.ibm-plex-sans-condensed-semibold-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.ibm-plex-sans-condensed-bold-italic {
+  font-family: "IBM Plex Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
