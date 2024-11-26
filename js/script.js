@@ -18,25 +18,25 @@ logoutUser("nav-logout");
 function router() {
   const { pathname } = window.location;
   switch (pathname) {
-    case "/FED1-project-exam-1-Nicolai-B/":
-    case "/FED1-project-exam-1-Nicolai-B/index.html":
+    case "/":
+    case "/index.html":
       displayHeroPosts();
       displayFeedPosts();
       break;
-    case "/FED1-project-exam-1-Nicolai-B/account/login.html":
+    case "/account/login.html":
       loginUser("login-button", "email", "password");
       logoutUser("logout-button");
       displayLogoutForm();
       break;
-    case "/FED1-project-exam-1-Nicolai-B/account/register.html":
+    case "/account/register.html":
       registerUser();
       break;
-    case "/FED1-project-exam-1-Nicolai-B/post/edit.html":
+    case "/post/edit.html":
       loginCheck();
       displayEditPosts();
       createNewPost();
       break;
-    case "/FED1-project-exam-1-Nicolai-B/post/index.html":
+    case "/post/index.html":
       displayBlogPostById();
       break;
   }
