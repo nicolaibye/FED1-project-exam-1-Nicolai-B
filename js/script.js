@@ -18,25 +18,25 @@ logoutUser("nav-logout");
 function router() {
   const { pathname } = window.location;
   switch (pathname) {
-    case "/":
-    case "/index.html":
+    case "../":
+    case "../index.html":
       displayHeroPosts();
       displayFeedPosts();
       break;
-    case "/account/login.html":
+    case "../account/login.html":
       loginUser("login-button", "email", "password");
       logoutUser("logout-button");
       displayLogoutForm();
       break;
-    case "/account/register.html":
+    case "../account/register.html":
       registerUser();
       break;
-    case "/post/edit.html":
+    case "../post/edit.html":
       loginCheck();
       displayEditPosts();
       createNewPost();
       break;
-    case "/post/index.html":
+    case "../post/index.html":
       displayBlogPostById();
       break;
   }
