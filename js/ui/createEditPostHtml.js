@@ -93,11 +93,11 @@ export function createEditPostHtml(container, post) {
     const lineBreak = document.createElement("br");
 
     editForm.append(
-      tagsLabel,
-      tagsInput,
-      lineBreak.cloneNode(),
       titleLabel,
       titleInput,
+      lineBreak.cloneNode(),
+      tagsLabel,
+      tagsInput,
       lineBreak.cloneNode(),
       bodyLabel,
       bodyInput,
