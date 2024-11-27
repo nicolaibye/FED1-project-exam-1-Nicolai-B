@@ -20,23 +20,28 @@ function router() {
   switch (pathname) {
     case "/":
     case "/index.html":
+      console.log(window.location.pathname);
       displayHeroPosts();
       displayFeedPosts();
       break;
     case "/account/login.html":
+      console.log(window.location.pathname);
       loginUser("login-button", "email", "password");
       logoutUser("logout-button");
       displayLogoutForm();
       break;
     case "/account/register.html":
+      console.log(window.location.pathname);
       registerUser();
       break;
     case "/post/edit.html":
+      console.log(window.location.pathname);
       loginCheck();
       displayEditPosts();
       createNewPost();
       break;
     case "/post/index.html":
+      console.log(window.location.pathname);
       displayBlogPostById();
       break;
   }
