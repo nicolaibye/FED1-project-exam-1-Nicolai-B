@@ -110,6 +110,11 @@ header {
   margin: 0px;
 }
 
+.nav-item {
+  display: flex;
+  align-items: center;
+}
+
 .login-link,
 .edit-link {
   color: var(--white-color);
@@ -129,12 +134,20 @@ header {
   transition: all 0.3s ease-in-out;
 }
 
-#nav-logout {
-  display: inline-block;
+#nav-logout, #nav-avatar {
   cursor: pointer;
   text-decoration: underline;
   margin-right: 16px;
   display: none;
+}
+
+#nav-avatar {
+  height: 40px;
+  width: 40px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid var(--white-color);
+  margin-right: unset;
 }
 
 /* Footer */

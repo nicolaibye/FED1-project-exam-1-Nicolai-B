@@ -51,6 +51,7 @@ export function loginUser(button, emailInput, passwordInput) {
         localStorage.setItem("token", loginData.data.accessToken);
         localStorage.setItem("username", loginData.data.name);
         localStorage.setItem("email", loginData.data.email);
+        localStorage.setItem("avatar", loginData.data.avatar.url);
         window.location.href = "../index.html";
       }
     } catch (error) {

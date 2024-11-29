@@ -3,7 +3,7 @@ import { displayFeedPosts } from "./handlers/posts/displayFeedPosts.js";
 import { loginUser } from "./handlers/posts/login/loginUser.js";
 import { displayEditIcon } from "./ui/displayEditIcon.js";
 import { displayLogoutForm } from "./ui/displayLogoutForm.js";
-import { displayNavLogout } from "./ui/displayNavLogout.js";
+import { displayNavAvatar, displayNavLogout } from "./ui/displayNav.js";
 import { logoutUser } from "./handlers/posts/login/logoutUser.js";
 import { registerUser } from "./handlers/posts/registerUser.js";
 import { displayEditPosts } from "./handlers/posts/displayEditPosts.js";
@@ -13,6 +13,7 @@ import { displayBlogPostById } from "./handlers/posts/displayBlogPostById.js";
 
 displayEditIcon();
 displayNavLogout();
+displayNavAvatar();
 logoutUser("nav-logout");
 
 function router() {
