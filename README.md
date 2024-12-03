@@ -54,6 +54,6 @@ Not currently looking for outside contributions to this project. If you ahve som
 
 ## Contact
 
-[Instagram](www.twitter.com)
+[Instagram](https://www.instagram.com/nicolai_designs/)
 
-[LinkedIn](https://www.instagram.com/nicolai_designs/)
+[LinkedIn](https://www.linkedin.com/in/nicolai-bye/)
